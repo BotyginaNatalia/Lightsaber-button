@@ -11,8 +11,8 @@ function App() {
     <div className="app">
       <div
         style={{
-          backgroundColor: color ? "white" : "",
-          color: color ? "black" : "",
+          backgroundColor: color ? "black" : "",
+          color: color ? "white" : "",
         }}
       >
         <Main changeColor={changeColor} />
