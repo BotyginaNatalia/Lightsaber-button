@@ -1,0 +1,169 @@
+.main {
+    position: relative;
+    min-width: 100%;
+    min-height: 100vh;
+}
+
+.main__box {
+    position: absolute;
+    width: 300px;
+    height: 15px;
+    background-color: transparent;
+    align-self: center;
+    margin: 0 auto;
+    top: 5%;
+    left: 5%;
+
+}
+
+.main__button {
+    width: 80px;
+    height: 10px;
+    background-color: rgb(153, 156, 154);
+    position: absolute;
+    top: 18%;
+    left: 3%;
+    border: 0.6px solid rgb(186, 181, 190);
+}
+
+.main__att {
+    width: 3px;
+    height: 10px;
+    background-color: rgb(42, 42, 49);
+    position: absolute;
+    top: .5%;
+    left: 85%;
+}
+
+.main__but {
+    width: 4px;
+    height: 4px;
+    background-color: rgb(42, 42, 49);
+    position: absolute;
+    border-radius: 50px;
+    top: 3%;
+    left: -4px;
+}
+
+.main__but2 {
+    width: 4px;
+    height: 4px;
+    background-color: rgb(42, 42, 49);
+    position: absolute;
+    border-radius: 50px;
+    top: 60%;
+    left: -4px;
+}
+
+.main__att2 {
+    width: 15px;
+    height: 4px;
+    background-color: rgb(97, 100, 98);
+    position: absolute;
+    top: -30%;
+    left: 40%;
+}
+
+.main__att3 {
+    width: 15px;
+    height: 2px;
+    background-color: rgb(87, 84, 90);
+    position: absolute;
+    top: -10%;
+    left: 5%;
+}
+
+.main__att4 {
+    width: 15px;
+    height: 2px;
+    background-color: rgb(87, 84, 90);
+    position: absolute;
+    top: 40%;
+    left: 5%;
+}
+
+.main__att5 {
+    width: 15px;
+    height: 2px;
+    background-color: rgb(87, 84, 90);
+    position: absolute;
+    top: 90%;
+    left: 5%;
+}
+
+/*.main__but3 {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background-color: rgb(221, 12, 30);    
+    border-radius: 50px;
+    top: 20%;
+    left: 70%;
+    cursor: pointer;
+}*/
+
+input[type="checkbox"] {
+  display: none;
+}
+
+label {
+    width: 6px;
+    height: 6px;
+    background-color: rgb(221, 12, 30);    
+    border-radius: 50px;
+    top: 20%;
+    left: 70%;
+    cursor: pointer;
+}
+
+label::after {
+    content: "";
+    position: relative;
+    width: 6px;
+    height: 6px;
+    background-color: rgb(221, 12, 30);    
+    border-radius: 50px;
+    top: 21%;
+    left: -25px;
+    cursor: pointer;
+}
+
+input:checked+label::after {
+    content: ".";
+    line-height: 5px;
+    font-size: 48.5px;
+    color: rgb(87, 84, 90);
+    text-shadow: 0 0 1px rgb(243, 242, 242);
+    top: -122.5%;
+    left: -28.5px;
+  }
+
+.main__but3:hover {
+    opacity: 0.6;
+}
+
+.main__but3:checked+.main__saber {
+    background-color: rgb(14, 232, 240);
+}
+
+.main__but3:checked+.main__saber::after {
+    background-color: transparent;
+}
+
+.main__saber {
+    display: block;
+    position: relative;
+    width: 200px;
+    height: 10px;
+    background-color: transparent;
+    top: -5%;
+    left: 103%;
+    border-radius: 20px;
+    box-shadow: 1px 1px 20px 1px rgb(5, 200, 248);
+}
+
+.main__saber::after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+}

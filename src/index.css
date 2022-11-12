@@ -1,0 +1,5 @@
+@import url(./vendor/normalize.css);
+@import url(./vendor/fonts.css);
+@import url(./compontens/App/App.css);
+@import url(./compontens/Main/Main.css);
+@import url(./contexts/ThemeContext.css)
