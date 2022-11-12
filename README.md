@@ -1,2 +1,2 @@
 # Lightsber-button
-Just a litghtsaber style button with change theme function
+Just a lighttsaber style button with change theme function
